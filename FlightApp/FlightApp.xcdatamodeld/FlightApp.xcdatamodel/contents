@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H1419" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Favorites" representedClassName="Favorites" syncable="YES" codeGenerationType="class">
+        <attribute name="awayTeamImg" optional="YES" attributeType="String"/>
+        <attribute name="awayTeamName" optional="YES" attributeType="String"/>
+        <attribute name="awayTeamScore" optional="YES" attributeType="String"/>
+        <attribute name="homeTeamImg" optional="YES" attributeType="String"/>
+        <attribute name="homeTeamName" optional="YES" attributeType="String"/>
+        <attribute name="homeTeamScore" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="favorites" inverseEntity="User"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="firstname" optional="YES" attributeType="String"/>
+        <attribute name="lastname" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <relationship name="favorites" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Favorites" inverseName="user" inverseEntity="Favorites"/>
+    </entity>
+    <elements>
+        <element name="Favorites" positionX="296" positionY="26" width="128" height="148"/>
+        <element name="User" positionX="-54" positionY="-9" width="128" height="118"/>
+    </elements>
 </model>

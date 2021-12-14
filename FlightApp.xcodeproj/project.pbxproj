@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A203790C2761BA6600DEC3FC /* sven-kucinic-Z0KjmjxUsKs-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A203790B2761BA6600DEC3FC /* sven-kucinic-Z0KjmjxUsKs-unsplash.jpg */; };
 		A207C4302756AC3300339A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A207C42F2756AC3300339A89 /* AppDelegate.swift */; };
 		A207C4322756AC3300339A89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A207C4312756AC3300339A89 /* SceneDelegate.swift */; };
 		A207C4342756AC3300339A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A207C4332756AC3300339A89 /* ViewController.swift */; };
@@ -14,9 +15,18 @@
 		A207C43A2756AC3300339A89 /* FlightApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A207C4382756AC3300339A89 /* FlightApp.xcdatamodeld */; };
 		A207C43C2756AC3400339A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A207C43B2756AC3400339A89 /* Assets.xcassets */; };
 		A207C43F2756AC3400339A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A207C43D2756AC3400339A89 /* LaunchScreen.storyboard */; };
+		A207C44B2756AFB700339A89 /* RegisterUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A207C44A2756AFB700339A89 /* RegisterUserController.swift */; };
+		A207C44E2756B20800339A89 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A207C44D2756B20800339A89 /* CoreDataService.swift */; };
+		A207C4512756D73300339A89 /* LeagueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A207C4502756D73300339A89 /* LeagueViewController.swift */; };
+		A209104027582FAE00CCE10E /* FutViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A209103F27582FAE00CCE10E /* FutViewCell.swift */; };
+		A21509452757ABC100474930 /* MatchesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21509442757ABC100474930 /* MatchesTable.swift */; };
+		A21509482757AE6D00474930 /* ApiServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21509472757AE6D00474930 /* ApiServiceController.swift */; };
+		A22787022762BF5F00467AC8 /* WhatsApp Image 2021-12-09 at 5.46.14 PM.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A22787012762BF5F00467AC8 /* WhatsApp Image 2021-12-09 at 5.46.14 PM.jpeg */; };
+		A27E3ACF27667C4800A88683 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27E3ACE27667C4800A88683 /* FavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A203790B2761BA6600DEC3FC /* sven-kucinic-Z0KjmjxUsKs-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sven-kucinic-Z0KjmjxUsKs-unsplash.jpg"; path = "../../../Downloads/sven-kucinic-Z0KjmjxUsKs-unsplash.jpg"; sourceTree = "<group>"; };
 		A207C42C2756AC3300339A89 /* FlightApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A207C42F2756AC3300339A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A207C4312756AC3300339A89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +36,14 @@
 		A207C43B2756AC3400339A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A207C43E2756AC3400339A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A207C4402756AC3400339A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A207C44A2756AFB700339A89 /* RegisterUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserController.swift; sourceTree = "<group>"; };
+		A207C44D2756B20800339A89 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		A207C4502756D73300339A89 /* LeagueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueViewController.swift; sourceTree = "<group>"; };
+		A209103F27582FAE00CCE10E /* FutViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutViewCell.swift; sourceTree = "<group>"; };
+		A21509442757ABC100474930 /* MatchesTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesTable.swift; sourceTree = "<group>"; };
+		A21509472757AE6D00474930 /* ApiServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceController.swift; sourceTree = "<group>"; };
+		A22787012762BF5F00467AC8 /* WhatsApp Image 2021-12-09 at 5.46.14 PM.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "WhatsApp Image 2021-12-09 at 5.46.14 PM.jpeg"; path = "../../../Downloads/WhatsApp Image 2021-12-09 at 5.46.14 PM.jpeg"; sourceTree = "<group>"; };
+		A27E3ACE27667C4800A88683 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,15 +77,48 @@
 			isa = PBXGroup;
 			children = (
 				A207C42F2756AC3300339A89 /* AppDelegate.swift */,
+				A27E3AD1276694E400A88683 /* ViewControllers */,
+				A27E3AD82766975C00A88683 /* Services */,
 				A207C4312756AC3300339A89 /* SceneDelegate.swift */,
-				A207C4332756AC3300339A89 /* ViewController.swift */,
 				A207C4352756AC3300339A89 /* Main.storyboard */,
+				A209103F27582FAE00CCE10E /* FutViewCell.swift */,
+				A27E3AD32766951300A88683 /* Model */,
+				A203790B2761BA6600DEC3FC /* sven-kucinic-Z0KjmjxUsKs-unsplash.jpg */,
+				A22787012762BF5F00467AC8 /* WhatsApp Image 2021-12-09 at 5.46.14 PM.jpeg */,
 				A207C43B2756AC3400339A89 /* Assets.xcassets */,
 				A207C43D2756AC3400339A89 /* LaunchScreen.storyboard */,
 				A207C4402756AC3400339A89 /* Info.plist */,
 				A207C4382756AC3300339A89 /* FlightApp.xcdatamodeld */,
 			);
 			path = FlightApp;
+			sourceTree = "<group>";
+		};
+		A27E3AD1276694E400A88683 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A207C44A2756AFB700339A89 /* RegisterUserController.swift */,
+				A207C4332756AC3300339A89 /* ViewController.swift */,
+				A207C4502756D73300339A89 /* LeagueViewController.swift */,
+				A27E3ACE27667C4800A88683 /* FavoritesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A27E3AD32766951300A88683 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A21509442757ABC100474930 /* MatchesTable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A27E3AD82766975C00A88683 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A207C44D2756B20800339A89 /* CoreDataService.swift */,
+				A21509472757AE6D00474930 /* ApiServiceController.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +178,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22787022762BF5F00467AC8 /* WhatsApp Image 2021-12-09 at 5.46.14 PM.jpeg in Resources */,
 				A207C43F2756AC3400339A89 /* LaunchScreen.storyboard in Resources */,
+				A203790C2761BA6600DEC3FC /* sven-kucinic-Z0KjmjxUsKs-unsplash.jpg in Resources */,
 				A207C43C2756AC3400339A89 /* Assets.xcassets in Resources */,
 				A207C4372756AC3300339A89 /* Main.storyboard in Resources */,
 			);
@@ -140,9 +193,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A207C44B2756AFB700339A89 /* RegisterUserController.swift in Sources */,
+				A21509452757ABC100474930 /* MatchesTable.swift in Sources */,
+				A207C4512756D73300339A89 /* LeagueViewController.swift in Sources */,
+				A209104027582FAE00CCE10E /* FutViewCell.swift in Sources */,
 				A207C4342756AC3300339A89 /* ViewController.swift in Sources */,
 				A207C43A2756AC3300339A89 /* FlightApp.xcdatamodeld in Sources */,
+				A27E3ACF27667C4800A88683 /* FavoritesViewController.swift in Sources */,
+				A21509482757AE6D00474930 /* ApiServiceController.swift in Sources */,
 				A207C4302756AC3300339A89 /* AppDelegate.swift in Sources */,
+				A207C44E2756B20800339A89 /* CoreDataService.swift in Sources */,
 				A207C4322756AC3300339A89 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
